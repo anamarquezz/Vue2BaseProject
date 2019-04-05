@@ -1,0 +1,122 @@
+html,body{
+  font-family: sans-serif;
+}
+.panel-options {
+  width: 100%;
+  height: 100vh;
+  padding-bottom: 50px;
+  background-color: black;
+  color: white;
+}
+
+.inline{
+  display: inline;
+}
+
+
+.dropdown-menu {
+  width: 500px !important;
+  overflow: scroll;
+}
+
+.mt-69 {
+  margin-top: 69px;
+}
+
+.mt-80 {
+  margin-top: 80px;
+}
+
+.ml-20 {
+  margin-left: -20px;
+}
+
+.blackbg{
+  background: #383737;
+}
+.fullscreen {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(32, 34, 35);
+  z-index: 1005;
+  cursor: pointer;
+  overflow: auto;
+}
+
+.modal-header.modalError {
+  background: #d82727;
+  color: white;
+  z-index:2000;
+}
+
+.colMessage {
+  margin-top: 4%;
+  color: #d82727;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.btn-downtt {
+  color: #fff;
+  background-color: #840404;
+  border-color: #ff0027;
+  font-weight: bold;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.btnwithdowntimefilter {
+  font-weight: bold !important;
+  width: 95%;
+}
+
+.btnsn {
+  color: white;
+  background-color: #610909;
+  border-color: #9e9e9ec0;
+  border-width: 2px;
+  font-weight: bold;
+  WIDTH: 100%;
+}
+
+.modalS{
+  position: fixed;
+  width: 30%;
+  height: 30%;
+  top: 100px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(226, 226, 226);
+  z-index: 1035;
+  cursor: pointer;
+}
+
+
+.btnsna {
+  color: white;
+  background-color: #d82727;
+  border-color: #d82727;
+  border-style: solid;
+  border-width: 2px;
+  margin-top: 10px;
+  height: 314%;
+  font-size: 1.5em;
+  font-weight: bold;
+  widows: 105%;
+}
+
+.text-red{
+  color:#d82727
+}
+
+.fixed-top { 
+  z-index: 100 !important;
+}
+
+

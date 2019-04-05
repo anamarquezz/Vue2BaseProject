@@ -1,0 +1,151 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .f01 {
+        font-size: 3.8em;
+      }
+      .imgrs{
+        width: 250px;
+    }
+     
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+   
+     .imgrs{
+        width: 250px;
+    }
+
+    .f3 {
+      font-size: 1.1em !important;
+    }
+    
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imgrs{
+    width: 250px;
+}
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .pdtp{
+    padding-top:50px; 
+  }
+
+  .imgrs{
+    width: 180px;
+}
+.f1{
+  font-size: 1.3em !important;
+}
+
+.f3 {
+  font-size: .9em !important;
+}
+.f4 {
+  font-size: .8em !important;
+}
+
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+   
+
+      .ddisplay{
+          display:none
+      }
+
+      .f4 {
+        font-size: .8em !important;
+      }
+
+      .pdtp{
+        padding-top:50px; 
+      }
+
+      .imgrs{
+        width: 150px;
+    }
+
+    .f1{
+      font-size: 1.3em !important;
+    }
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+    
+      .ddisplay{
+          display:none
+      }
+      .f3 {
+        font-size: 1em !important;
+      }
+
+      .f4 {
+        font-size: .8em !important;
+      }
+
+      .imgrs{
+          width: 150px;
+      }
+
+      .pdtp{
+        padding-top:50px; 
+      }
+
+      .f1{
+        font-size: 1.3em !important;
+      }
+
+      
+}
+
+
+
+
+.f0 {
+  font-size: 3em;
+}
+
+.f1 {
+  font-size: 1.8em;
+}
+
+.f2 {
+  font-size: 1.5em;
+}
+
+.f3 {
+  font-size: 1.3em;
+}
